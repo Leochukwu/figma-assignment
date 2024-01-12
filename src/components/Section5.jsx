@@ -8,10 +8,11 @@ const Section5 = () => {
         <p>A simple paragraph is comprised of three major components. The which is often a declarative sentence.</p>
       </main>
       <main className='section5b'>
-        <p>Monthly</p>
-        <div></div>
-
-
+        <p>Monthly </p>
+          <label class="switch">
+        <input type="checkbox" checked/>
+        <span class="slider round"></span>
+        </label>
         <p>Yearly</p>
       </main>
     </div>

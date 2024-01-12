@@ -16,8 +16,8 @@ const Navbar = () => {
         </div>
         <div className='nav_buttons'>
             <div className='ll'>          <img src="./assets/web_logo.svg" alt="" srcset="" />
-            <p>Language</p></div>
-            <p className='signup'>Signup</p>
+            <a href='#'>Language</a></div>
+            <a href='#' className='signup'>Signup </a>
         </div>
 
       </nav>
